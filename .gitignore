@@ -1,0 +1,11 @@
+﻿# See https://github.com/github/gitignore/blob/main/Node.gitignore
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+coverage/
+dist/
+build/
