@@ -6,11 +6,10 @@ Simple backend demonstrating Mongoose middleware:
 - Order post-save (update Snack and Student aggregates)
 
 ## Setup
-1. Create `.env` from `.env.example` and set `MONGO_URI`.
-2. Install and run:
+1. Install and run:
 ```
 npm install
-npm run dev
+npm run dev or nodemon src/server.js or node src/server.js
 ```
 
 ## Endpoints
@@ -23,3 +22,6 @@ npm run dev
 ## Notes
 - Focuses on demonstrating required hooks and clean structure.
 
+## Add .env and add mongouri and port there 
+- MONGO_URI=mongodb+srv://piyush89332_db_user:2KxsQcj22nh6boij@cluster4.ipuzzhc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster4
+- PORT=4000
